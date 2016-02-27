@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    faalis-media (0.0.1)
+    faalis-media (0.1.0)
       faalis (> 2)
 
 GEM

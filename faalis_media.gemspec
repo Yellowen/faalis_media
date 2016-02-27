@@ -6,7 +6,7 @@ require "faalis/media/version"
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "faalis-media"
-  s.version     = FaalisMedia::VERSION
+  s.version     = Faalis::Media::VERSION
   s.authors     = ["Sameer Rahmani"]
   s.email       = ["lxsameer@gnu.org"]
   s.homepage    = "https://github.com/Yellowen/faalis_media"

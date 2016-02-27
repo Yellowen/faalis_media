@@ -1,5 +1,8 @@
+
 module Faalis
   module Media
-    VERSION = "0.1.0"
+
   end
 end
+
+require 'faalis/media/engine'

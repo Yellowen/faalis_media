@@ -1,2 +1,2 @@
-FaalisMedia::Engine.routes.draw do
+Faalis::Media::Engine.routes.draw do
 end
