@@ -1,4 +1,4 @@
 module Faalis::Media
-  class Faalis::Media::File < ActiveRecord::Base
+  class File < ActiveRecord::Base
   end
 end
