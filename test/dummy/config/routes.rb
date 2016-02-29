@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
 
-  mount FaalisMedia::Engine => "/faalis_media"
+  mount Faalis::Media::Engine => "/faalis_media"
 end
