@@ -1,5 +1,5 @@
 module Faalis::Media
-  class ImagePolicy < ApplicationPolicy
+  class ImagePolicy < ::ApplicationPolicy
     class Scope < Scope
       def resolve
         scope

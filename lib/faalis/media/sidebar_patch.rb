@@ -1,6 +1,6 @@
 class Faalis::Dashboard::Models::Sidebar
   def media_entries
-    menu I18n.t('faalis.media.dashboard.media'), icon: 'fa fa-files' do
+    menu I18n.t('faalis.media.dashboard.media'), icon: 'fa fa-files-o' do
         item(I18n.t('faalis.media.dashboard.images'),
              model: 'Faalis::Media::Image',
              url: Faalis::Media::Engine.routes.url_helpers.dashboard_images_path)
@@ -14,4 +14,4 @@ class Faalis::Dashboard::Models::Sidebar
              url: Faalis::Media::Engine.routes.url_helpers.dashboard_files_path)
       end
   end
-end
+  end

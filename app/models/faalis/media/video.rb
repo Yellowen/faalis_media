@@ -1,4 +1,3 @@
-module Faalis::Media
-  class Video < ActiveRecord::Base
-  end
+class Faalis::Media::Video < ActiveRecord::Base
+
 end
