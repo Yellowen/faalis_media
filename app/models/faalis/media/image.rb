@@ -8,4 +8,11 @@ class Faalis::Media::Image < ActiveRecord::Base
                        content_type: { content_type: /\Aimage/ },
                        size: { in: Faalis::Media::Engine.image_size_limitation })
 
+  def image_url
+    image.url
+  end
+
+  def image_markdown
+    "![#{caption}](#{image_url} \"#{subcaption}\")"
+  end
 end
