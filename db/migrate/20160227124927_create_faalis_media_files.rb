@@ -6,5 +6,7 @@ class CreateFaalisMediaFiles < ActiveRecord::Migration
 
       t.timestamps null: false
     end
+
+    add_attachment :faalis_media_files, :file
   end
 end
