@@ -1,6 +1,9 @@
 class CreateFaalisMediaVideos < ActiveRecord::Migration
   def change
-    create_table :faalis_media_videos do |t|
+    args = {}
+    args = { id: :uuid } if Faalis::Engine.use_uuid
+
+    create_table :faalis_media_videos, **args do |t|
       t.string :caption
       t.text :subcaption
 
